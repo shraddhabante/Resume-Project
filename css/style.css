@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-style {
+    background-color: #0A2647;
+    color: white;
+}
+
+.nav-div {
+    color: white;
+}
+
+.div-user {
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+.profile-div {
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+.about-div {
+    width: 75%;
+    height: 350px;
+    /* border: 1px solid black; */
+}
+
+.pic {
+    width: 50%;
+    height: 230px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    margin-left: 50px;
+}
+
+/* .icon-div{
+   width: 16%;
+   height: 40px;
+   border: 1px solid black;
+   margin-left: auto;
+   margin-right: auto;
+} */
+/* .head-div{
+    margin-left: 50px;
+} */
+.edu-card {
+    box-shadow: 0 0 5px;
+}
+#education > p{
+    background-color: #205295;
+}
+#skills > p{
+    background-color: #205295;
+}
+.project-style {
+    box-shadow: 3px 3px 5px;
+}
+#projects > p{
+    background-color: #205295;
+}
+.project-style:hover {
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.style-div {
+    width: 100%;
+    height: 250px;
+    /* border: 1px solid black; */
+    /* background-color: #47bdb77e; */
+}
+
+.menu-div {
+    width: 50%;
+    height: 250px;
+    /* border: 1px solid black; */
+}
+
+.menu-div .container {
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 5px;
+    /* margin-left: 0; */
+}
+.menu-div ul li{
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #08498f;
+    color: white;
+}
+
+.cont1 {
+    width: 50%;
+    height: 150px;
+    /* border: 1px solid black; */
+    /* background-color: #0c918a; */
+    color: white;
+}
+
+@media screen and (max-width:400px) {
+    .div-user {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-right: 0;
+
+    }
+    .profile-div {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+
+    .pic {
+        width: 80%;
+        height: 200px;
+        margin-left: 0;
+    }
+    img{
+        width: 40%;
+        height: 200px;
+        text-align: center;
+    }
+    a{
+        margin-right: 0;
+    }
+    .about-div {
+        width: 100%;
+        height: auto;
+    }
+    .about-div p a{
+        text-align: center;
+    }
+    .cer-list{
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:400px){
+    .div-user {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
+    }
+    .profile-div {
+        width: 100%;
+        height: auto;
+    } 
+    .pic {
+        width: 50%;
+        height: 350px;
+
+    }
+    .icon-div{
+        font-size: larger;
+        padding-left: 50px;
+    }
+    .about-div {
+        width: 80%;
+        height: auto;
+    }
+    .about-div p{
+        padding-left: 30px;
+        font-size: 17px;
+    }
+    .style-div{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+}
+@media screen and (min-width:768px){
+    .div-user {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+
+    }
+    .profile-div {
+        width: 40%;
+        height: auto;
+    }
+    .pic {
+        width: 70%;
+        height: 300px;
+        padding-left: 70px;
+    }
+    .icon-div{
+        font-size: medium;
+        padding-left: 50px;
+    }
+    .about-div {
+        width: 60%;
+        height: auto;
+    }
+    .about-div p{
+        font-size: 15px;
+    }
+    .style-div{
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+}
+@media screen and (min-width:992px){
+    .div-user {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+
+    }
+    .profile-div {
+        width: 25%;
+        height: auto;
+    }
+    .pic {
+        width: 70%;
+        height: 200px;
+    }
+    .icon-div{
+        font-size: medium;
+        padding-left: 20px;
+    }
+    .about-div {
+        width: 75%;
+        height: auto;
+    }
+    .about-div p{
+        font-size: 17px;
+    }
+}
+@media (min-width:1280px){
+    .div-user {
+        width: 100%;
+        height: 350;
+        flex-direction: row;
+    }
+    .profile-div {
+        width: 25%;
+        height: 350;
+    }
+    .pic {
+        width: 70%;
+        height: 200px;
+    }
+    .icon-div{
+        font-size: medium;
+        padding-left: 70px;
+    }
+    .about-div {
+        width: 75%;
+        height: 350;
+    }
+    .about-div p{
+        font-size: 15px;
+    }
+}
